@@ -128,7 +128,7 @@ namespace CameraApp
                 BitmapFactory.Options options = new BitmapFactory.Options { InJustDecodeBounds = true };
                 BitmapFactory.DecodeFile(fileName, options);
 
-                // Next we calculate the ratio that we need to resize the image by
+                // Next we calculate the ratio that we need to resize the image by aa
                 // to fit the requested dimensions.
                 int outHeight = options.OutHeight;
                 int outWidth = options.OutWidth;
